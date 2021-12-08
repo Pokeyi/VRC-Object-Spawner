@@ -1,2 +1,2 @@
 # VRC-Object-Spawner
-Object spawner &amp; controller for VRChat.
+Network-synced object spawner & controller for VRChat.

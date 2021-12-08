@@ -15,7 +15,7 @@ namespace Pokeyi.UdonSharp
     [RequireComponent(typeof(VRCObjectPool))] // Make sure object has an object-pool component.
 
     public class P_ObjectSpawner : UdonSharpBehaviour
-    {   // Object spawner & controller for VRChat:
+    {   // Network-synced object spawner & controller for VRChat:
         [Header(":: VRC Object Spawner by Pokeyi ::")]
 
         [Header("[X] -Left/+Right   [Y] -Down/+Up   [Z] -Back/+Fwd")]
@@ -72,14 +72,14 @@ namespace Pokeyi.UdonSharp
             if (Networking.IsOwner(gameObject)) objectPool.Return(despawnObject);
         }
 
-        public void _SpawnObject()
+        public void _SpawnObject() // *Public/Protected*
         {   // Set network ownership and spawn next object from pool:
             if (objectPool == null) return;
             if (!Networking.IsOwner(gameObject)) Networking.SetOwner(Networking.LocalPlayer, gameObject);
             objectPool.TryToSpawn();
         }
 
-        public void _ResetObjects()
+        public void _ResetObjects() // *Public/Protected*
         {   // Set network ownership and return all objects to pool:
             if (objectPool == null) return;
             if (!Networking.IsOwner(gameObject)) Networking.SetOwner(Networking.LocalPlayer, gameObject);

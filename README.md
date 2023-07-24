@@ -1,4 +1,4 @@
-# [💾](https://github.com/Pokeyi/VRC-Object-Spawner/blob/main/P_ObjectSpawner.cs) VRC-Object-Spawner <!-- [![Downloads](https://img.shields.io/github/downloads/Pokeyi/VRC-Object-Spawner/total?label=Downloads&logo=github)](https://github.com/Pokeyi/VRC-Object-Spawner/releases) -->
+# [💾](https://github.com/Pokeyi/VRC-Object-Spawner/blob/main/P_ObjectSpawner.cs) VRC-Object-Spawner [![Downloads](https://img.shields.io/github/downloads/Pokeyi/VRC-Object-Spawner/total?label=Downloads&logo=github)](https://github.com/Pokeyi/VRC-Object-Spawner/releases)
 Network-synced object spawner & controller for VRChat.
 
 ![Object Spawner](P_ObjectSpawner.png)

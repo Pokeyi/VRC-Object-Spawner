@@ -3,6 +3,9 @@ Network-synced object spawner & controller for VRChat.
 
 ![Object Spawner](P_ObjectSpawner.png)
 
+### VRChat Creator Companion App (VCC)
+***This project can now be imported through VCC with the [Pokeyi's Udon Tools](https://github.com/Pokeyi/vpm-packages#vpm-packages) VPM package.***
+
 ## Overview
 🚧 This project is functional but in early stages with additional features planned. 🚧
 
